@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
   color: #505962;
+  width :100%;
+
 }
 
 .service-wrap {
@@ -17,7 +19,14 @@ body {
   z-index: 1000;
 }
 
+.navbar-expand-lg{
+  background-color: blue !important;
 
+}
+.contenu{
+  position: relative;
+  width: 100%;
+}
 
 /*============= FOOTER =============*/
 
@@ -70,3 +79,4 @@ body {
 @media (max-width: 576px) {
   
 }
+
